@@ -1,0 +1,13 @@
+{
+  "name": "Chartidy",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://in.finance.yahoo.com/*"],
+      "js": ["/src/assets/Chart.bundled.min.js", "/src/content.js"],
+      "css": ["/src/styles.css"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}
