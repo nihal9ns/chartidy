@@ -1,0 +1,3 @@
+# chartidy
+
+Chartidy - Chrome Plugin
